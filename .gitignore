@@ -1,0 +1,11 @@
+# Security: Never commit the bot token
+.env
+
+# Python specific
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Local data (Optional: if you want to keep your local leaderboard private)
+*.json
