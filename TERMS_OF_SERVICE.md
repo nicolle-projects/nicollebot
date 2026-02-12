@@ -71,10 +71,11 @@ For full details, see:
 Users may request removal of their **nicollebot game leaderboard data**.
 
 Process:
-
 1. The user contacts the **bot owner via Discord DM**  
-2. The owner removes the user’s leaderboard entries  
-3. The owner confirms completion privately  
+2. The **bot owner** removes the user's leaderboard entries  
+3. The **bot owner** confirms completion privately  
+
+**Important:** Only the **bot owner** has the authority to execute data removal commands.
 
 Notes:
 - Removal is **irreversible**  
