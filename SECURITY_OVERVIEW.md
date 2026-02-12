@@ -1,5 +1,5 @@
 # nicollebot — Security Overview
-Last updated: 2026-02-08
+Last updated: 2026-02-12
 
 ## Purpose and scope
 
@@ -120,9 +120,9 @@ Users may request removal of their **nicollebot game leaderboard data**
 (the only retained user information).
 
 ### Removal process
-1. The user contacts the **bot owner via Discord DM**  
-2. The owner removes the user’s ID from all nicollebot game leaderboard records  
-3. The owner confirms completion privately  
+1. The user contacts the server owner, server admin or **bot owner via Discord DM**  
+2. The server owner, server admin or bot owner removes the user’s ID from all nicollebot game leaderboard records  
+3. The bot owner confirms completion privately  
 
 ### Scope clarification
 - Removal applies **only to data stored by nicollebot**  
