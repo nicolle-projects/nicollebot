@@ -165,13 +165,15 @@ Users may request removal of their **nicollebot game leaderboard data**
 (the only stored user information).
 
 Process:
-1. For support and data removal requests, contact the server owner, server admin, or bot owner, **through DM via Discord** 
-2. The owner removes the user’s leaderboard entries  
-3. The owner confirms completion privately  
+1. Contact the **bot owner via Discord DM** to request data removal
+2. The bot owner removes the user's leaderboard entries  
+3. The bot owner confirms completion privately  
+
+**Important:** Only the **bot owner** has the authority to remove nicollebot game leaderboard data.
 
 Requests involving **other bots or server systems** must be directed to  
 the **server owner or administrators**, as those systems are outside  
-nicollebot’s control.
+nicollebot's control.
 
 
 
@@ -190,7 +192,7 @@ See **SECURITY_OVERVIEW.md** for full details.
 
 ## Contact & Support
 
-For privacy/data removal requests ONLY may contact the server owner, server admin or bot owner **via Discord DM**
+For privacy/data removal requests, contact the **bot owner via Discord DM**.
 
 For help or support requests, contact the **bot owner via Discord DM**.
 
