@@ -66,7 +66,7 @@ Public help **never exposes admin-only commands**.
 - Rare Blue Diamond: Finding this rare gem grants a massive XP boost and resets shields to max (2)
 - Progressive Difficulty: Coal danger increases as the match advances into later rounds
 - Demo Mode Support: Includes PLAY SOLO and PREVIEW RUN for testing or practice
-- Command: !diamondminetourney (Use !diamondminetourney demo for testing)
+- Command: `!diamondminetourney` (Use `!diamondminetourney demo` for testing)
 
 ### Dead or Paid
 **Number-survival elimination game**
