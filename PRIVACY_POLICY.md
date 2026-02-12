@@ -1,6 +1,6 @@
 # nicollebot — Privacy Policy
 
-Last updated: 2026-02-08
+Last updated: 2026-02-12
 
 ## Overview
 nicollebot is designed with **privacy by default** and **minimal data retention**.
@@ -86,14 +86,16 @@ it is designed to **avoid collecting sensitive personal data**.
 If the **nicollebot data model or retention behavior changes**,
 this policy must be **updated before deploying the modified system**.
 
-## Contact
+## Contact & Support
 
-For privacy requests (including **data removal**):
-➡️ Users must contact the **bot owner via Discord DM**.
+For privacy/data removal requests ONLY may contact the server owner, server admin or bot owner **via Discord DM**
+
+For help or support requests, contact the **bot owner via Discord DM**.
 
 nicollebot does **not provide email-based support** in order to:
 * Reduce spam risk
 * Prevent impersonation
 * Maintain Discord identity verification
 
-For privacy requests (including **nicollebot game leaderboard data removal**), users must contact the **bot owner via Discord DM**.
+
+
