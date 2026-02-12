@@ -80,11 +80,11 @@ Users may request removal of their leaderboard entries.
 See `PRIVACY_POLICY.md` for the process.
 
 ## Contact & Support
-For privacy/data removal requests ONLY may contact the server owner, server admin or bot owner via Discord DM
+For privacy/data removal requests, contact the **bot owner via Discord DM**.
 
-For help or support requests, contact the bot owner via Discord DM.
+For help or support requests, contact the **bot owner via Discord DM**.
 
 nicollebot does not provide email-based support in order to:
-Reduce spam risk
-Prevent impersonation
-Maintain Discord identity verification
+* Reduce spam risk
+* Prevent impersonation
+* Maintain Discord identity verification
