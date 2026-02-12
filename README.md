@@ -79,5 +79,12 @@ nicollebot is designed to minimize retained data and reduce exposure.
 Users may request removal of their leaderboard entries.  
 See `PRIVACY_POLICY.md` for the process.
 
-## Contact
-For support and data removal requests, contact the server owner, server admin or bot owner, through DM via Discord.
+## Contact & Support
+For privacy/data removal requests ONLY may contact the server owner, server admin or bot owner via Discord DM
+
+For help or support requests, contact the bot owner via Discord DM.
+
+nicollebot does not provide email-based support in order to:
+Reduce spam risk
+Prevent impersonation
+Maintain Discord identity verification
