@@ -80,4 +80,4 @@ Users may request removal of their leaderboard entries.
 See `PRIVACY_POLICY.md` for the process.
 
 ## Contact
-For support and data removal requests, contact the bot owner through the DM via Discord.
+For support and data removal requests, contact the server owner, server admin or bot owner, through DM via Discord.
