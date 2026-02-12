@@ -188,11 +188,16 @@ See **SECURITY_OVERVIEW.md** for full details.
 
 
 
-## Support
-For help, support, or **data removal requests**,  
-contact the **bot owner via Discord DM**.
+## Contact & Support
 
-For data removal requests ONLY may contact the server owner, server admin or bot owner **via Discord DM**
+For privacy/data removal requests ONLY may contact the server owner, server admin or bot owner **via Discord DM**
+
+For help or support requests, contact the **bot owner via Discord DM**.
+
+nicollebot does **not provide email-based support** in order to:
+* Reduce spam risk
+* Prevent impersonation
+* Maintain Discord identity verification
 
 
 
