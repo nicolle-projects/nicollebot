@@ -19,8 +19,8 @@ nicollebot is a **security-first** Discord bot that provides:
 - The Line — over/under RNG betting game
 - Cupcake Chaos — planned/limited availability (may be under construction)
 
-## Tournament Games
-Diamond Mine Tourney — A high-stakes survival tournament. Miners compete through multiple rounds to find gems while avoiding coal. Features a shield system, progressive difficulty scaling, and two ways to win: Last Survivor Standing or Top XP Score.
+### Tournament Games
+- Diamond Mine Tourney — A high-stakes survival tournament. Miners compete through multiple rounds to find gems while avoiding coal. Features a shield system, progressive difficulty scaling, and two ways to win: Last Survivor Standing or Top XP Score.
 
 ### WSOP Multi-Table Tournament Payout Calculator
 
