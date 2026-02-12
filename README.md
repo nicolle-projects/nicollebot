@@ -19,19 +19,22 @@ nicollebot is a **security-first** Discord bot that provides:
 - The Line — over/under RNG betting game
 - Cupcake Chaos — planned/limited availability (may be under construction)
 
+## Tournament Games
+Diamond Mine Tourney — A high-stakes survival tournament. Miners compete through multiple rounds to find gems while avoiding coal. Features a shield system, progressive difficulty scaling, and two ways to win: Last Survivor Standing or Top XP Score.
+
 ### WSOP Multi-Table Tournament Payout Calculator
 
-NicolleBot includes a **strict WSOP MTT payout calculator** that uses only
+nicollebot includes a **strict WSOP MTT payout calculator** that uses only
 official World Series of Poker payout tables.
 
-Entrant limits inside NicolleBot:
+Entrant limits inside nicollebot:
 - Entrants < 2 → rejected
 - Entrants 2–3000 → calculated using locked WSOP payout tables
 - Entrants > 3000 → not supported by the bot
 
 Official WSOP payout structures **do exist** for tournaments larger than
 3000 entrants, but those extended tables are intentionally **not embedded**
-inside NicolleBot.
+inside nicollebot.
 
 For tournaments with 3001+ entrants, reference the official WSOP source:
 https://www.wsoponline.com/nv/how-to-play-poker/mtt-tournament-payouts
