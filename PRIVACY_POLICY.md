@@ -88,15 +88,18 @@ it is designed to **avoid collecting sensitive personal data**.
 If the **nicollebot data model or retention behavior changes**,
 this policy must be **updated before deploying the modified system**.
 
-## Contact & Support
-For privacy/data removal requests, contact the **bot owner via Discord DM**.
+## Contact and Identity Verification
 
-For help or support requests, contact the **bot owner via Discord DM**.
+For privacy requests, security concerns, or data removal, please contact the bot owner. nicollebot does not provide email-based support to prevent impersonation and maintain Discord-verified communication.
 
-nicollebot does **not provide email-based support** in order to:
-* Reduce spam risk
-* Prevent impersonation
-* Maintain Discord identity verification
+**Bot Owner:** nicolle (@lakegirl1)
+
+**Discord User ID:** `1085727697843531836`
+
+**nicollebot App ID:** `1464292101054271744`
+
+**To report a vulnerability or request data removal:** Please contact the Bot Owner directly via Discord Private Message (DM).
+
 
 
 
