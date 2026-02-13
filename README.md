@@ -88,3 +88,10 @@ nicollebot does not provide email-based support in order to:
 * Reduce spam risk
 * Prevent impersonation
 * Maintain Discord identity verification
+
+## 📞 Contact & Support
+For privacy/data removal requests or help, contact the **bot owner via Discord DM**.
+
+* **Bot Owner:** nicolle (@lakegirl1)
+* **User ID:** `1085727697843531836`
+* **nicollebot App ID:** `1464292101054271744`
