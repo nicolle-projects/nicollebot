@@ -120,19 +120,29 @@ Continued use of nicollebot after updates
 constitutes acceptance of the revised terms.
 
 ## 11. Contact
+
 For:
-- Support  
-- Privacy requests  
-- Security concerns  
-- Terms questions  
+
+* Support
+* Privacy requests
+* Security concerns
+* Terms questions
 
 Contact the **bot owner via Discord DM**.
 
 nicollebot does **not provide email-based support**, in order to:
 
-- Reduce spam and impersonation risk  
-- Maintain Discord-verified identity communication  
-- Protect user privacy  
+* Reduce spam and impersonation risk
+* Maintain Discord-verified identity communication
+* Protect user privacy
+
+**Bot Owner:** nicolle (@lakegirl1)
+
+**Discord User ID:** `1085727697843531836`
+
+**nicollebot App ID:** `1464292101054271744`
+
+**To report a vulnerability or request data removal:** Please contact the Bot Owner directly via Discord Private Message (DM).
 
 ## 12. Governing principles
 nicollebot is designed around:
