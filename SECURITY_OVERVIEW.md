@@ -168,8 +168,16 @@ nicollebot’s security posture is built on four principles:
 4. **Deterministic, auditable behavior** — predictable and verifiable runtime  
 
 
-nicollebot is intentionally designed to be:
-- **Simple**  
-- **Private**  
-- **Predictable**  
-- **Secure by architecture**
+## Contact and Identity Verification
+
+For security concerns, data removal requests, or to verify the authenticity of this application, please use the identifiers below. nicollebot does not provide email-based support to ensure all communication remains within Discord’s verified identity system and to reduce spam risk.
+
+**Bot Owner:** nicolle (@lakegirl1)
+
+**Discord User ID:** `1085727697843531836`
+
+**nicollebot App ID:** `1464292101054271744`
+
+**To report a vulnerability or request data removal:** Please contact the Bot Owner directly via Discord Private Message (DM).
+
+
