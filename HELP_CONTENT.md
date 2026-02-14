@@ -73,7 +73,8 @@ Public help **never exposes admin-only commands**.
 **Number-survival elimination game**
 
 - Players choose a number from **1–10**  
-- Each round reveals an unlucky number  
+- Each round reveals an unlucky number
+- Difficulty increases at Round 10 (2 Unlucky Numbers)
 - Matching players are eliminated  
 - Continues until a winner (or all eliminated)
 - Command: `!deadorpaid`
