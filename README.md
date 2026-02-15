@@ -50,9 +50,14 @@ Supported payout structures:
 - Top 15% (WSOP Extended)
 - Top 20% (WSOP Extended)
 
-Commands:
+### Commands 
 - `!pokerpayout <entrants> <total_pot>`
-- `/pokerpayout`
+
+- `/pokerpayout` - Private slash command
+
+- `!pokerpayouthelp` - View help guide (Private to you)
+
+- `/pokerpayouthelp` - View help guide (Public)
 
 ### Data Source (Single Source of Truth)
 All payout data comes from:
