@@ -27,7 +27,8 @@ Design principles:
 ## Public Help & Menu Commands
 These commands provide access to menus, rules, and leaderboards.
 
-- `!nicollebothelp` → Opens the main help interface  
+- `!nicollebothelp` → Opens the main help interface (Public) 
+- `/nicollebothelp` → Opens the main help interface (Private to you) 
 - `!nicollebotcommands` → Displays available public commands  
 - `!nicollebotgamerules` → Shows rules for supported games  
 - `!nicollebotleaderboard` → Displays nicollebot game win leaderboards  
@@ -139,10 +140,13 @@ https://www.wsoponline.com/nv/how-to-play-poker/mtt-tournament-payouts
 - **Top 20% — WSOP Extended**
 
 ### Commands 
-`!pokerpayout <entrants> <total_pot>`
-`/pokerpayout`
-`!pokerpayouthelp`
-`/pokerpayouthelp`
+- `!pokerpayout <entrants> <total_pot>`
+
+- `/pokerpayout` - Private slash command
+
+- `!pokerpayouthelp` - View help guide (Private to you)
+
+- `/pokerpayouthelp` - View help guide (Public)
 
 
 
