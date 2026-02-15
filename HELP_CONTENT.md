@@ -64,6 +64,7 @@ Public help **never exposes admin-only commands**.
 - Two Victory Paths: Win as the Last Survivor Standing (survival) or by having the Top XP Score (skill)
 - Double Winners: Players can claim both titles in a single match for ultimate prestige
 - Shield System: Everyone starts with 1 shield; Coal strikes consume a shield and apply an XP penalty instead of instant elimination
+- Regular Diamonds: Grant XP at random 
 - Rare Blue Diamond: Finding this rare gem grants a massive XP boost and resets shields to max (2) 
 - Rare Flawless Diamond: Extremely rare find, as it doubles cumulative XP and grants +1 shield 
 - Progressive Difficulty: Coal danger increases as the match advances into later rounds
