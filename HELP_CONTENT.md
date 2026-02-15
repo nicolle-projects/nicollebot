@@ -142,11 +142,11 @@ https://www.wsoponline.com/nv/how-to-play-poker/mtt-tournament-payouts
 ### Commands 
 - `!pokerpayout <entrants> <total_pot>`
 
-- `/pokerpayout` - Private slash command
+- `/pokerpayout` - The calculator modal and results embed is visible only to you (Private)
 
-- `!pokerpayouthelp` - View help guide (Private to you)
+- `!pokerpayouthelp` - View help guide (Public)
 
-- `/pokerpayouthelp` - View help guide (Public)
+- `/pokerpayouthelp` - View help guide (Private)
 
 
 
