@@ -11,6 +11,14 @@ nicollebot is a **security-first** Discord bot that provides:
 - **Deterministic behavior:** Explicit state transitions and predictable outputs.
 - **Strict poker mode:** No estimation, interpolation, extrapolation, or fallback math.
 
+## Core Commands
+Use these primary commands to access the master menus and bot-wide rules. 
+
+* `!nicollebothelp` — **Public:** Master help menu embed
+* `/nicollebothelp` — **Private:** Private help menu embed
+* `!nicollebotcommands` — **Public:** Full bot command list 
+* `!nicollebotgamerules` — **Public:** Quickly jump to the rules for a specific game.
+
 ## Features
 ### Games
 - Diamond Mine — timed elimination game with difficulty scaling
@@ -53,7 +61,7 @@ Supported payout structures:
 ### Commands 
 - `!pokerpayout <entrants> <total_pot>`
 
-- `/pokerpayout` - Private slash command
+- `/pokerpayout` - Private: The calculator modal and results embed is visible only to you
 
 - `!pokerpayouthelp` - View help guide (Private to you)
 
