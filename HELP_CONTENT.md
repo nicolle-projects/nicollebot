@@ -142,6 +142,7 @@ https://www.wsoponline.com/nv/how-to-play-poker/mtt-tournament-payouts
 `!pokerpayout <entrants> <total_pot>`
 `/pokerpayout`
 `!pokerpayouthelp`
+`/pokerpayouthelp`
 
 
 
