@@ -61,11 +61,11 @@ Supported payout structures:
 ### Commands 
 - `!pokerpayout <entrants> <total_pot>`
 
-- `/pokerpayout` - Private: The calculator modal and results embed is visible only to you
+- `/pokerpayout` - The calculator modal and results embed is visible only to you (Private)
 
-- `!pokerpayouthelp` - View help guide (Private to you)
+- `!pokerpayouthelp` - View help guide (Public)
 
-- `/pokerpayouthelp` - View help guide (Public)
+- `/pokerpayouthelp` - View help guide (Private)
 
 ### Data Source (Single Source of Truth)
 All payout data comes from:
