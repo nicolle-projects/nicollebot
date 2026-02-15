@@ -12,12 +12,13 @@ nicollebot is a **security-first** Discord bot that provides:
 - **Strict poker mode:** No estimation, interpolation, extrapolation, or fallback math.
 
 ## Core Commands
-Use these primary commands to access the master menus and bot-wide rules. 
+Use these primary commands to access to menus, rules, and leaderboards. 
 
-* `!nicollebothelp` — **Public:** Master help menu embed
-* `/nicollebothelp` — **Private:** Private help menu embed
-* `!nicollebotcommands` — **Public:** Full bot command list 
-* `!nicollebotgamerules` — **Public:** Quickly jump to the rules for a specific game.
+- `!nicollebothelp` → Opens the main help interface (Public) 
+- `/nicollebothelp` → Opens the main help interface (Private to you) 
+- `!nicollebotcommands` → Displays available public commands  
+- `!nicollebotgamerules` → Shows rules for supported games  
+- `!nicollebotleaderboard` → Displays nicollebot game win leaderboards 
 
 ## Features
 ### Games
