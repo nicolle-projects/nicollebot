@@ -54,7 +54,8 @@ Public help **never exposes admin-only commands**.
   - Remaining miners  
 - Difficulty scales every 2 rounds:
   - Coal chance increases (capped)  
-  - Rare chance decreases (floored)  
+  - Rare chance decreases (floored)
+  - - **Provably Fair RNG** → outcomes are cryptographically committed before each match
   - Command: `!diamondmine`
  
 ### Diamond Mine Tourney
@@ -72,7 +73,9 @@ Competitive survival tournament with three victory titles
 - Rare Flawless Diamond: Extremely rare find that doubles cumulative XP instantly and grants +1 shield
 - Progressive Difficulty: Coal danger increases as the match advances into later rounds
 - Demo Mode Support: Includes PLAY SOLO and PREVIEW RUN for testing or practice
+- - **Provably Fair RNG** → outcomes are cryptographically committed before each match
 - Command: `!diamondminetourney` (Use `!diamondminetourney demo` for testing)
+
 
 ## Provably Fair RNG
 
@@ -111,6 +114,8 @@ via a seed commitment + reveal model.
 
 For commitment verification: https://emn178.github.io/online-tools/sha256.html  
 For full roll verification (HMAC-SHA256): https://www.toolkitbay.com/tkb/tool/HMAC_SHA256
+
+## Other Games
 
 ### Dead or Paid
 **Number-survival elimination game**
