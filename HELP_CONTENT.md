@@ -74,6 +74,44 @@ Competitive survival tournament with three victory titles
 - Demo Mode Support: Includes PLAY SOLO and PREVIEW RUN for testing or practice
 - Command: `!diamondminetourney` (Use `!diamondminetourney demo` for testing)
 
+## Provably Fair RNG
+
+Both **Diamond Mine** and **Diamond Mine Tourney** use cryptographically verifiable RNG 
+via a seed commitment + reveal model.
+
+**Shared Model (both builds):**
+- Commitment algorithm: SHA256
+- Roll algorithm: HMAC-SHA256
+- HMAC message format: `{client_seed}|{nonce}|{label}`
+- Client Seed: Lobby Message ID (public, non-gameable)
+- Server Seed: Secret until match end
+
+**Diamond Mine (Standard)**
+- Nonce: Fixed at `0`
+- Labels are stable per round + tile:
+  - `diamondmine:r{round}:tile{tileIndex}:rare`
+  - `diamondmine:r{round}:tile{tileIndex}:coal`
+  - `diamondmine:r{round}:tile{tileIndex}:gem`
+
+**Diamond Mine Tourney**
+- Nonce: `int(SHA256(label)[:8], 16)` — first 8 hex chars of label hash as 32-bit integer (multiplayer concurrency safe)
+- Labels use `tourney:` prefix:
+  - `tourney:r{round}:tile{tileIndex}:rare`
+  - `tourney:r{round}:tile{tileIndex}:flawless`
+  - `tourney:r{round}:tile{tileIndex}:coal`
+  - `tourney:r{round}:tile{tileIndex}:gem`
+  - `tourney:r{round}:tile{tileIndex}:xp:rare_blue`
+  - `tourney:r{round}:tile{tileIndex}:xp:{gem_key}`
+
+**How to verify:**
+1. Copy the Server Seed Hash from the COMMIT message (posted at match start)
+2. Copy the Server Seed from the REVEAL message (posted at match end)
+3. Compute SHA256(Server Seed) — must exactly match the committed hash
+4. Reproduce any tile roll using HMAC-SHA256 with the published label spec
+
+For commitment verification: https://emn178.github.io/online-tools/sha256.html  
+For full roll verification (HMAC-SHA256): https://www.toolkitbay.com/tkb/tool/HMAC_SHA256
+
 ### Dead or Paid
 **Number-survival elimination game**
 
