@@ -55,6 +55,7 @@ Public help **never exposes admin-only commands**.
 - Difficulty scales every 2 rounds:
   - Coal chance increases (capped)  
   - Rare chance decreases (floored)
+  - Wins are recorded to the leaderboard. View with `!nicollebotleaderboard` → Diamond Mine.
   - - **Provably Fair RNG** → outcomes are cryptographically committed before each match
   - Command: `!diamondmine`
  
@@ -74,6 +75,7 @@ Competitive survival tournament with three victory titles
 - Progressive Difficulty: Coal danger increases as the match advances into later rounds
 - Demo Mode Support: Includes PLAY SOLO and PREVIEW RUN for testing or practice
 - - **Provably Fair RNG** → outcomes are cryptographically committed before each match
+- Wins are recorded to the leaderboard. View with `!nicollebotleaderboard` → Diamond Mine Tourney.
 - Command: `!diamondminetourney` (Use `!diamondminetourney demo` for testing)
 
 
