@@ -54,9 +54,10 @@ Public help **never exposes admin-only commands**.
   - Remaining miners  
 - Difficulty scales every 2 rounds:
   - Coal chance increases (capped)  
-  - Rare chance decreases (floored)
-  - Wins are recorded to the leaderboard. View with `!nicollebotleaderboard` → Diamond Mine.
-  - **Provably Fair RNG** → outcomes are cryptographically committed before each match
+    - Rare chance decreases (floored)
+- Wins are recorded to the leaderboard. View with `!nicollebotleaderboard` → Diamond Mine.
+  
+**Provably Fair RNG** → outcomes are cryptographically committed before each match and revealed at match end for verification
   - Command: `!diamondmine`
  
 ### Diamond Mine Tourney
@@ -74,14 +75,14 @@ Competitive survival tournament with three victory titles
 - Rare Flawless Diamond: Extremely rare find that doubles cumulative XP instantly and grants +1 shield
 - Progressive Difficulty: Coal danger increases as the match advances into later rounds
 - Demo Mode Support: Includes PLAY SOLO and PREVIEW RUN for testing or practice
--  **Provably Fair RNG** → outcomes are cryptographically committed before each match
+- **Provably Fair RNG** → outcomes are cryptographically committed before each match and revealed at match end for verification
 - Wins are recorded to the leaderboard. View with `!nicollebotleaderboard` → Diamond Mine Tourney.
 - Command: `!diamondminetourney` (Use `!diamondminetourney demo` for testing)
 
 
 ## Provably Fair RNG
 
-Both **Diamond Mine** and **Diamond Mine Tourney** use cryptographically verifiable RNG 
+Both **Diamond Mine** and **Diamond Mine Tourney** use the same cryptographically verifiable RNG 
 via a seed commitment + reveal model.
 
 **Shared Model (both builds):**
@@ -90,6 +91,7 @@ via a seed commitment + reveal model.
 - HMAC message format: `{client_seed}|{nonce}|{label}`
 - Client Seed: Lobby Message ID (public, non-gameable)
 - Server Seed: Secret until match end
+- Nonce is label-derived and order-independent (multiplayer safe)
 
 **Diamond Mine (Standard)**
 - Nonce: `int(SHA256(label)[:8], 16)` — first 8 hex chars of label hash as 32-bit integer (deterministic)
