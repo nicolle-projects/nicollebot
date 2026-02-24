@@ -56,7 +56,7 @@ Public help **never exposes admin-only commands**.
   - Coal chance increases (capped)  
   - Rare chance decreases (floored)
   - Wins are recorded to the leaderboard. View with `!nicollebotleaderboard` → Diamond Mine.
-  - - **Provably Fair RNG** → outcomes are cryptographically committed before each match
+  - **Provably Fair RNG** → outcomes are cryptographically committed before each match
   - Command: `!diamondmine`
  
 ### Diamond Mine Tourney
@@ -74,7 +74,7 @@ Competitive survival tournament with three victory titles
 - Rare Flawless Diamond: Extremely rare find that doubles cumulative XP instantly and grants +1 shield
 - Progressive Difficulty: Coal danger increases as the match advances into later rounds
 - Demo Mode Support: Includes PLAY SOLO and PREVIEW RUN for testing or practice
-- - **Provably Fair RNG** → outcomes are cryptographically committed before each match
+-  **Provably Fair RNG** → outcomes are cryptographically committed before each match
 - Wins are recorded to the leaderboard. View with `!nicollebotleaderboard` → Diamond Mine Tourney.
 - Command: `!diamondminetourney` (Use `!diamondminetourney demo` for testing)
 
@@ -92,15 +92,15 @@ via a seed commitment + reveal model.
 - Server Seed: Secret until match end
 
 **Diamond Mine (Standard)**
-- Nonce: Fixed at `0`
+- Nonce: `int(SHA256(label)[:8], 16)` — first 8 hex chars of label hash as 32-bit integer (deterministic)
 - Labels are stable per round + tile:
-  - `diamondmine:r{round}:tile{tileIndex}:rare`
-  - `diamondmine:r{round}:tile{tileIndex}:coal`
-  - `diamondmine:r{round}:tile{tileIndex}:gem`
-
+- `diamondmine:r{round}:tile{tileIndex}:rare`
+- `diamondmine:r{round}:tile{tileIndex}:coal`
+- `diamondmine:r{round}:tile{tileIndex}:gem`
+ 
 **Diamond Mine Tourney**
-- Nonce: `int(SHA256(label)[:8], 16)` — first 8 hex chars of label hash as 32-bit integer (multiplayer concurrency safe)
-- Labels use `tourney:` prefix:
+- Nonce: `int(SHA256(label)[:8], 16)` — first 8 hex chars of label hash as 32-bit integer (deterministic)
+- Labels are stable per round + tile:
   - `tourney:r{round}:tile{tileIndex}:rare`
   - `tourney:r{round}:tile{tileIndex}:flawless`
   - `tourney:r{round}:tile{tileIndex}:coal`
