@@ -1,5 +1,5 @@
 ### nicollebot — Help & Command Guide
-Last updated: 2026-02-12
+Last updated: 2026-02-27
 
 This document provides a **public reference** for using nicollebot.
 
@@ -56,9 +56,7 @@ Public help **never exposes admin-only commands**.
   - Coal chance increases (capped)  
     - Rare chance decreases (floored)
 - Wins are recorded to the leaderboard. View with `!nicollebotleaderboard` → Diamond Mine.
-  
-**Provably Fair RNG** → outcomes are cryptographically committed before each match and revealed at match end for verification
-  - Command: `!diamondmine`
+- Command: `!diamondmine`
  
 ### Diamond Mine Tourney
 Competitive survival tournament with three victory titles
@@ -75,49 +73,9 @@ Competitive survival tournament with three victory titles
 - Rare Flawless Diamond: Extremely rare find that doubles cumulative XP instantly and grants +1 shield
 - Progressive Difficulty: Coal danger increases as the match advances into later rounds
 - Demo Mode Support: Includes PLAY SOLO and PREVIEW RUN for testing or practice
-- **Provably Fair RNG** → outcomes are cryptographically committed before each match and revealed at match end for verification
 - Wins are recorded to the leaderboard. View with `!nicollebotleaderboard` → Diamond Mine Tourney.
 - Command: `!diamondminetourney` (Use `!diamondminetourney demo` for testing)
 
-
-## Provably Fair RNG
-
-Both **Diamond Mine** and **Diamond Mine Tourney** use the same cryptographically verifiable RNG 
-via a seed commitment + reveal model.
-
-**Shared Model (both builds):**
-- Commitment algorithm: SHA256
-- Roll algorithm: HMAC-SHA256
-- HMAC message format: `{client_seed}|{nonce}|{label}`
-- Client Seed: Lobby Message ID (public, non-gameable)
-- Server Seed: Secret until match end
-- Nonce is label-derived and order-independent (multiplayer safe)
-
-**Diamond Mine (Standard)**
-- Nonce: `int(SHA256(label)[:8], 16)` — first 8 hex chars of label hash as 32-bit integer (deterministic)
-- Labels are stable per round + tile:
-- `diamondmine:r{round}:tile{tileIndex}:rare`
-- `diamondmine:r{round}:tile{tileIndex}:coal`
-- `diamondmine:r{round}:tile{tileIndex}:gem`
- 
-**Diamond Mine Tourney**
-- Nonce: `int(SHA256(label)[:8], 16)` — first 8 hex chars of label hash as 32-bit integer (deterministic)
-- Labels are stable per round + tile:
-  - `tourney:r{round}:tile{tileIndex}:rare`
-  - `tourney:r{round}:tile{tileIndex}:flawless`
-  - `tourney:r{round}:tile{tileIndex}:coal`
-  - `tourney:r{round}:tile{tileIndex}:gem`
-  - `tourney:r{round}:tile{tileIndex}:xp:rare_blue`
-  - `tourney:r{round}:tile{tileIndex}:xp:{gem_key}`
-
-**How to verify:**
-1. Copy the Server Seed Hash from the COMMIT message (posted at match start)
-2. Copy the Server Seed from the REVEAL message (posted at match end)
-3. Compute SHA256(Server Seed) — must exactly match the committed hash
-4. Reproduce any tile roll using HMAC-SHA256 with the published label spec
-
-For commitment verification: https://emn178.github.io/online-tools/sha256.html  
-For full roll verification (HMAC-SHA256): https://www.toolkitbay.com/tkb/tool/HMAC_SHA256
 
 ## Other Games
 
