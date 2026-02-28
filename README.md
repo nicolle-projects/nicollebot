@@ -79,7 +79,7 @@ Properties:
 * Used **exclusively** by the calculator
 * `poker.py` contains **ZERO embedded payout values**
 
-**WSOP MULTI-TABLE TOURNAMENT PAYOUT CALCULATOR**
+**WSOP Multi-Tablr Tournament Payout Calcukator**
 **Data Source:** [WSOP Standard MTT Payout Tables](https://www.wsoponline.com/nv/how-to-play-poker/mtt-tournament-payouts)
 
 ## Privacy & safety
