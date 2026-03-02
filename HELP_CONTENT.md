@@ -58,23 +58,47 @@ Public help **never exposes admin-only commands**.
 - Wins are recorded to the leaderboard. View with `!nicollebotleaderboard` → Diamond Mine.
 - Command: `!diamondmine`
  
-### Diamond Mine Tourney
+### Diamond Mine Tourney  
 Competitive survival tournament with three victory titles
 
-- Join the high-stakes expedition lobby
-- Three Victory Titles:
-  - Last 3 Standing (survival title)
-  - Top 3 Scores (XP title)
-  - Sparkle Standouts (top XP among non–Last 3 finishers)
-- Double Winners: Players can claim multiple titles in a single match for ultimate prestige
-- Shield System: Everyone starts with 1 shield; Coal strikes consume a shield and apply an XP penalty instead of instant elimination
-- Regular Diamonds: Grant XP at random
-- Rare Blue Diamond: Finding this rare gem grants a massive XP boost and grants +2 shields
-- Rare Flawless Diamond: Extremely rare find that doubles cumulative XP instantly and grants +1 shield
-- Progressive Difficulty: Coal danger increases as the match advances into later rounds
-- Demo Mode Support: Includes PLAY SOLO and PREVIEW RUN for testing or practice
-- Wins are recorded to the leaderboard. View with `!nicollebotleaderboard` → Diamond Mine Tourney.
-- Command: `!diamondminetourney` (Use `!diamondminetourney demo` for testing)
+Join the high-stakes expedition lobby and survive the mine longer than your rivals.
+
+**How It Works**
+- Players are grouped into timed waves each round
+- Only your wave may click when called
+- Miss your wave → instant elimination
+- Survive rounds, earn XP, and outlast the field
+
+**Three Victory Titles**
+- Last 3 Standing (survival title)  
+- Top 3 Scores (XP title)  
+- Sparkle Standouts (top XP among eliminated players; excludes Last 3 Standing)
+
+**Double Winners**
+Players can claim multiple titles in a single match for ultimate prestige.
+
+**Shield System**
+- Everyone starts with **1 shield**
+- Coal removes one shield and applies an XP penalty instead of immediate elimination
+- With no shields remaining, the next coal eliminates you
+
+**Diamond Types**
+- Regular Diamonds — grant random XP  
+- Rare Blue Diamond — grants bonus XP and **+2 shields**  
+- Rare Flawless Diamond — extremely rare; **doubles total XP instantly** and grants **+1 shield**
+
+**Progressive Difficulty**
+Coal danger increases in later rounds, making survival increasingly difficult.
+
+**Demo Modes**
+- PLAY SOLO — manual testing mode  
+- PREVIEW RUN — automated demo flow  
+
+Wins are recorded to the leaderboard.  
+View with: `!nicollebotleaderboard → Diamond Mine Tourney`
+
+**Command:** `!diamondminetourney`  
+**Demo:** `!diamondminetourney demo`
 
 
 ## Other Games
