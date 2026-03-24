@@ -132,11 +132,11 @@ View with: `!nicollebotleaderboard → Diamond Mine Tourney`
 
 
 ### Cupcake Chaos
-**Grid-based elimination game**
+**Turn-based risk/reward game (pre-production)**
 
-- Logic exists but availability may be **limited or disabled**  
-- May be under construction or restricted  
-- Command: `!cupcake`
+- This game is **currently not available for public use**  
+- The system is implemented but **intentionally disabled** pending full verification  
+- Command: `!cupcake` (inactive)
 
 
 
