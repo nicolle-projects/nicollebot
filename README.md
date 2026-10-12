@@ -89,6 +89,12 @@ nicollebot is designed to minimize retained data and reduce exposure.
 - Security Overview: `SECURITY_OVERVIEW.md`
 - Terms of Service: `TERMS_OF_SERVICE.md`
 
+## Other bots
+This repo also holds the policies for two other bots by the same owner, LG Utility and RefHub Bot:
+
+- LG Utility: [Privacy Policy](LG_UTILITY_PRIVACY_POLICY.md) and [Terms of Service](LG_UTILITY_TERMS_OF_SERVICE.md)
+- RefHub Bot: [Privacy Policy](REFHUB_BOT_PRIVACY_POLICY.md) and [Terms of Service](REFHUB_BOT_TERMS_OF_SERVICE.md)
+
 ## Data removal requests
 Users may request removal of their leaderboard entries.  
 See `PRIVACY_POLICY.md` for the process.
