@@ -49,7 +49,7 @@ For privacy requests, security concerns, or data removal, please contact the bot
 
 **Bot Owner:** nicolle (@lakegirl1)
 
-**Discord User ID:** `1085727697843531836`
+Questions, problems or data requests: contact the bot owner through the Discord server where you use the bot.
 
 **RefHub Bot App ID:** `1534710038956998836`
 
