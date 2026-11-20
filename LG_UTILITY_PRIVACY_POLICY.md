@@ -34,7 +34,7 @@ For privacy requests, security concerns, or questions, please contact the bot ow
 
 **Bot Owner:** nicolle (@lakegirl1)
 
-**Discord User ID:** `1085727697843531836`
+Questions, problems or data requests: contact the bot owner through the Discord server where you use the bot.
 
 **LG Utility App ID:** `1492273657643401296`
 
